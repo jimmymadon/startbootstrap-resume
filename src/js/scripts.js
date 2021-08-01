@@ -1,6 +1,6 @@
 //
 // Scripts
-// 
+//
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -25,5 +25,12 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
+
+    // Prevent email being scraped by auto scrapers
+    const me = "hello";
+    const place = "jimmymadon.com";
+    const elink = document.getElementById("mlink");
+    elink.href = `mailto:${me}@${place}`;
+    elink.innerText = `${me}@${place}`
 
 });

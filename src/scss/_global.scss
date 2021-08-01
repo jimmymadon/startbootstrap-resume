@@ -1,6 +1,6 @@
-// 
+//
 // Global
-// 
+//
 
 body {
     padding-top: $navbar-base-height;
@@ -32,9 +32,14 @@ p.lead {
     font-weight: 400;
 }
 
-.subheading {
+ul.subheading {
     font-family: $headings-font-family;
-    text-transform: uppercase;
     font-weight: 500;
     font-size: 1.5rem;
+    padding: 0px;
+    li {
+        display: inline;
+        list-style-type: none;
+        margin-right: 1em;
+    }
 }
