@@ -32,14 +32,25 @@ p.lead {
     font-weight: 400;
 }
 
-ul.subheading {
+.subheading {
     font-family: $headings-font-family;
     font-weight: 500;
     font-size: 1.5rem;
     padding: 0px;
+}
+
+.personal-details {
     li {
-        display: inline;
-        list-style-type: none;
-        margin-right: 1em;
+        padding-right: 0.7rem;
+    }
+}
+
+.skills {
+    font-size: 1.25rem;
+    ul {
+        margin-bottom: 0.5rem;
+        li {
+            padding-right: 0.7rem;
+        }
     }
 }

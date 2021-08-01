@@ -10887,16 +10887,25 @@ p.lead {
   font-weight: 400;
 }
 
-ul.subheading {
+.subheading {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 500;
   font-size: 1.5rem;
   padding: 0px;
 }
-ul.subheading li {
-  display: inline;
-  list-style-type: none;
-  margin-right: 1em;
+
+.personal-details li {
+  padding-right: 0.7rem;
+}
+
+.skills {
+  font-size: 1.25rem;
+}
+.skills ul {
+  margin-bottom: 0.5rem;
+}
+.skills ul li {
+  padding-right: 0.7rem;
 }
 
 #sideNav {
